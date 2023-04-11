@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    font-style: oblique;
+}
+
+.div {
+    border: 1px solid rgb(4, 4, 31);
+    background-image: url(https://t3.ftcdn.net/jpg/03/17/79/66/360_F_317796693_B5yF8ybwUMb3MDhe6QQWGJKQYYNHfxKg.jpg);
+    background-position: center;
+    margin: 10px;
+    text-align: center;
+
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(42, 164, 245);
+}
+
+h2 {
+    color: rgb(28, 103, 189);
+}

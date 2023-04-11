@@ -22,13 +22,15 @@
             <div class="row">
                 <div class="col-12">
                    @forelse ($movies as $movie)
-                       <div>
-                        <h3>{{$movie->title}}</h3>
+                       <div class="div">
+                        <h2>{{$movie->title}}</h3>
                         <h3>{{$movie->original_title}}</h3>
-                        <h3>{{$movie->nazionality}}</h3>
-                        <h3>{{$movie->date}}</h3>
-                        <h5>{{$movie->vote}}</h3>
-                       </div>   
+                        <p>{{$movie->nazionality}}</h3>
+                        <p>{{$movie->date}}</h3>
+                        <p>{{$movie->vote}}</h3>
+                       </div>
+                        
+                         
                    
                    @empty
                        
